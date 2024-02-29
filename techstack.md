@@ -3,15 +3,15 @@
 ## Tech Stack
 Jeff-Bouchard/skywire-wing-commander is built on the following main stack:
 
-- [wercker](http://wercker.com/) – Continuous Integration
 - [Golang](http://golang.org/) – Languages
-- [Prometheus](http://prometheus.io/) – Monitoring Tools
 - [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - [gRPC](https://grpc.io/) – Remote Procedure Call (RPC)
-- [Testify](https://github.com/stretchr/testify) – Go Testing
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Prometheus](http://prometheus.io/) – Monitoring Tools
+- [Testify](https://github.com/stretchr/testify) – Go Testing
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [wercker](http://wercker.com/) – Continuous Integration
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -21,15 +21,15 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 Jeff-Bouchard/skywire-wing-commander is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/897/S67KcxKE.png' alt='wercker'/> [wercker](http://wercker.com/) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/1005/O6AczwfV_400x400.png' alt='Golang'/> [Golang](http://golang.org/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png' alt='Prometheus'/> [Prometheus](http://prometheus.io/) – Monitoring Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png' alt='Protobuf'/> [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png' alt='gRPC'/> [gRPC](https://grpc.io/) – Remote Procedure Call (RPC)
-- <img width='25' height='25' src='https://img.stackshare.io/service/8695/stretchr.png' alt='Testify'/> [Testify](https://github.com/stretchr/testify) – Go Testing
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png' alt='Prometheus'/> [Prometheus](http://prometheus.io/) – Monitoring Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/8695/stretchr.png' alt='Testify'/> [Testify](https://github.com/stretchr/testify) – Go Testing
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/897/S67KcxKE.png' alt='wercker'/> [wercker](http://wercker.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -40,7 +40,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [Jeff-Bouchard/skywire-wing-commander](https://github.com/Jeff-Bouchard/skywire-wing-commander)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|82<br/>Tools used|02/04/24 <br/>Report generated|
+|82<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
