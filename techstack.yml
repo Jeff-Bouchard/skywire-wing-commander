@@ -1,0 +1,1071 @@
+repo_name: Jeff-Bouchard/skywire-wing-commander
+report_id: 83b6bb2aca24d9bcfbbef9fd72f647d7
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:53:36+00:00'
+requested_by: BigOokie
+provider: github
+branch: dev
+detected_tools_count: 82
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/pelletier/go-toml/Dockerfile
+  detection_source: vendor/github.com/pelletier/go-toml/Dockerfile
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander
+  detection_source: Repo Metadata
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/sirupsen/logrus/go.mod
+  detection_source: vendor/github.com/sirupsen/logrus/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: BigOokie
+  last_updated_on: 2018-08-08 10:59:24.000000000 Z
+- name: wercker
+  description: Build, test, and deploy container-native applications
+  website_url: http://wercker.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/897/S67KcxKE.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/tcnksm/go-latest/wercker.yml
+  detection_source: vendor/github.com/tcnksm/go-latest/wercker.yml
+  last_updated_by: BigOokie
+  last_updated_on: 2018-08-19 05:44:22.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander
+  detection_source: Repo Metadata
+- name: OneOfOne/xxhash
+  description: A native implementation of the excellent XXHash hashing algorithm
+  package_url: https://pkg.go.dev/github.com/OneOfOne/xxhash
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: afero
+  description: A FileSystem Abstraction System for Go
+  package_url: https://pkg.go.dev/github.com/spf13/afero
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/afero/go.mod
+  detection_source: vendor/github.com/spf13/afero/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: armon/consul-api
+  description: Golang API client for Consul
+  package_url: https://pkg.go.dev/github.com/armon/consul-api
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: bbolt
+  description: An embedded key/value database for Go
+  package_url: https://pkg.go.dev/github.com/coreos/bbolt
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: btree
+  description: Package btree implements in-memory B-Trees of arbitrary degree
+  package_url: https://pkg.go.dev/github.com/google/btree
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: cast
+  description: Safe and easy casting from one type to another in Go
+  package_url: https://pkg.go.dev/github.com/spf13/cast
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/cast/go.mod
+  detection_source: vendor/github.com/spf13/cast/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: cespare/xxhash
+  description: A Go implementation of the 64-bit xxHash algorithm
+  package_url: https://pkg.go.dev/github.com/cespare/xxhash
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: check.v1
+  description: Package check is a rich testing extension for Go's testing package
+  package_url: https://pkg.go.dev/gopkg.in/check.v1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/pelletier/go-toml/go.sum
+  detection_source: vendor/github.com/pelletier/go-toml/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: client_model
+  description: Data model artifacts for Prometheus
+  package_url: https://pkg.go.dev/github.com/prometheus/client_model
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: clockwork
+  description: A fake clock for golang
+  package_url: https://pkg.go.dev/github.com/jonboulle/clockwork
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: common
+  description: Go libraries shared across Prometheus components and libraries
+  package_url: https://pkg.go.dev/github.com/prometheus/common
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: crypt
+  description: Store and retrieve encrypted configs from etcd or consul
+  package_url: https://pkg.go.dev/github.com/xordataexchange/crypt
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: errcheck
+  description: Errcheck checks that you checked errors
+  package_url: https://pkg.go.dev/github.com/kisielk/errcheck
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: etcd
+  description: Distributed reliable key-value store for the most critical data of
+    a distributed system
+  package_url: https://pkg.go.dev/github.com/coreos/etcd
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: fastuuid
+  description: Fast generation of 192-bit UUIDs
+  package_url: https://pkg.go.dev/github.com/rogpeppe/fastuuid
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: fsnotify
+  description: Cross-platform file system notifications for Go
+  package_url: https://pkg.go.dev/github.com/fsnotify/fsnotify
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: glog
+  description: Leveled execution logs for Go
+  package_url: https://pkg.go.dev/github.com/golang/glog
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: go
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/sirupsen/logrus/go.mod
+  detection_source: vendor/github.com/sirupsen/logrus/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: go-grpc-prometheus
+  description: Prometheus monitoring for your gRPC Go servers
+  package_url: https://pkg.go.dev/github.com/grpc-ecosystem/go-grpc-prometheus
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: go-semver
+  description: Semver library in Go
+  package_url: https://pkg.go.dev/github.com/coreos/go-semver
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/hashicorp/hcl/go.mod
+  detection_source: vendor/github.com/hashicorp/hcl/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: go-systemd
+  description: Go bindings to systemd socket activation
+  package_url: https://pkg.go.dev/github.com/coreos/go-systemd
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: go-toml
+  description: Go library for the TOML language
+  package_url: https://pkg.go.dev/github.com/pelletier/go-toml
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/pelletier/go-toml/go.mod
+  detection_source: vendor/github.com/pelletier/go-toml/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: go-version
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-version
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/hashicorp/go-version/go.mod
+  detection_source: vendor/github.com/hashicorp/go-version/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: gogo/protobuf
+  description: Protocol Buffers for Go with Gadgets
+  package_url: https://pkg.go.dev/github.com/gogo/protobuf
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: golang_protobuf_extensions
+  description: Support for streaming Protocol Buffer messages for the Go language
+  package_url: https://pkg.go.dev/github.com/matttproud/golang_protobuf_extensions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: gotool
+  description: A library of some of the utility functions provided by
+  package_url: https://pkg.go.dev/github.com/kisielk/gotool
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: groupcache
+  description: Groupcache is a caching and cache-filling library
+  package_url: https://pkg.go.dev/github.com/golang/groupcache
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: hcl
+  description: HCL is the HashiCorp configuration language
+  package_url: https://pkg.go.dev/github.com/hashicorp/hcl
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/hashicorp/hcl/go.mod
+  detection_source: vendor/github.com/hashicorp/hcl/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: httprouter
+  description: A high performance HTTP request router that scales well
+  package_url: https://pkg.go.dev/github.com/julienschmidt/httprouter
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: jwalterweatherman
+  description: So you always leave a note
+  package_url: https://pkg.go.dev/github.com/spf13/jwalterweatherman
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/jwalterweatherman/go.mod
+  detection_source: vendor/github.com/spf13/jwalterweatherman/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: jwt-go
+  description: Golang implementation of JSON Web Tokens
+  package_url: https://pkg.go.dev/github.com/dgrijalva/jwt-go
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: kingpin.v2
+  description: 'Package kingpin provides command line interfaces like this:'
+  package_url: https://pkg.go.dev/gopkg.in/alecthomas/kingpin.v2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: kit
+  description: A standard library for microservices
+  package_url: https://pkg.go.dev/github.com/go-kit/kit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: kr/logfmt
+  description: Parse logfmt messages
+  package_url: https://pkg.go.dev/github.com/kr/logfmt
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: kr/text
+  description: Miscellaneous functions for formatting text
+  package_url: https://pkg.go.dev/github.com/kr/text
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: logfmt
+  description: Package logfmt marshals and unmarshals logfmt messages
+  package_url: https://pkg.go.dev/github.com/go-logfmt/logfmt
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: mapstructure
+  description: Go library for decoding generic map values into native Go structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/mapstructure
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/mitchellh/mapstructure/go.mod
+  detection_source: vendor/github.com/mitchellh/mapstructure/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: misspell
+  description: Correct commonly misspelled English words in source files
+  package_url: https://pkg.go.dev/github.com/client9/misspell
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: mock
+  description: GoMock is a mocking framework for the Go programming language
+  package_url: https://pkg.go.dev/github.com/golang/mock
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: murmur3
+  description: Native MurmurHash3 Go implementation
+  package_url: https://pkg.go.dev/github.com/spaolacci/murmur3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: objx
+  description: Go package for dealing with maps
+  package_url: https://pkg.go.dev/github.com/stretchr/objx
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/sirupsen/logrus/go.mod
+  detection_source: vendor/github.com/sirupsen/logrus/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: perks
+  description: Effective Computation of Things
+  package_url: https://pkg.go.dev/github.com/beorn7/perks
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: pkg
+  description: A collection of go utility packages
+  package_url: https://pkg.go.dev/github.com/coreos/pkg
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: pretty
+  description: Pretty printing for Go values
+  package_url: https://pkg.go.dev/github.com/kr/pretty
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: probing
+  description: Getting Started Install the handler We first need to serve the probing
+    HTTP handler
+  package_url: https://pkg.go.dev/github.com/xiang90/probing
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: procfs
+  description: Procfs provides functions to retrieve system
+  package_url: https://pkg.go.dev/github.com/prometheus/procfs
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: properties
+  description: Java properties scanner for Go
+  package_url: https://pkg.go.dev/github.com/magiconair/properties
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/magiconair/properties/go.mod
+  detection_source: vendor/github.com/magiconair/properties/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: pty
+  description: PTY interface for Go
+  package_url: https://pkg.go.dev/github.com/kr/pty
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: soheilhy/cmux
+  description: 'Connection multiplexer for GoLang: serve different services on the
+    same port!'
+  package_url: https://pkg.go.dev/github.com/soheilhy/cmux
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: stack
+  description: Package stack implements utilities to capture
+  package_url: https://pkg.go.dev/github.com/go-stack/stack
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/sirupsen/logrus/go.mod
+  detection_source: vendor/github.com/sirupsen/logrus/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: template
+  description: Fork of Go's text/template adding newline elision
+  package_url: https://pkg.go.dev/github.com/alecthomas/template
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/afero/go.mod
+  detection_source: vendor/github.com/spf13/afero/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: toml
+  description: TOML parser for Golang with reflection
+  package_url: https://pkg.go.dev/github.com/BurntSushi/toml
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/pelletier/go-toml/go.mod
+  detection_source: vendor/github.com/pelletier/go-toml/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: tsdb
+  description: The Prometheus time series database layer
+  package_url: https://pkg.go.dev/github.com/prometheus/tsdb
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: ugorji/go
+  description: Idiomatic codec and rpc lib for msgpack, cbor, json, etc
+  package_url: https://pkg.go.dev/github.com/ugorji/go
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: ulid
+  description: Universally Unique Lexicographically Sortable Identifier
+  package_url: https://pkg.go.dev/github.com/oklog/ulid
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: units
+  description: Helpful unit multipliers and functions for Go
+  package_url: https://pkg.go.dev/github.com/alecthomas/units
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: websocket
+  description: A fast
+  package_url: https://pkg.go.dev/github.com/gorilla/websocket
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: yaml
+  description: A better way to marshal and unmarshal YAML in Golang
+  package_url: https://pkg.go.dev/github.com/ghodss/yaml
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.sum
+  detection_source: vendor/github.com/spf13/viper/go.sum
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/pelletier/go-toml/go.mod
+  detection_source: vendor/github.com/pelletier/go-toml/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
+- name: zap
+  description: Blazing fast, structured, leveled logging in Go
+  package_url: https://pkg.go.dev/go.uber.org/zap
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skywire-wing-commander/blob/dev/vendor/github.com/spf13/viper/go.mod
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: BigOokie
+  last_updated_on: 2019-09-08 23:23:25.000000000 Z
